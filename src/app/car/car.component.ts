@@ -23,6 +23,11 @@ const CarArray: CarInterface[]=[
     countryoforigin: 'Italy',
     yearofpurchase: 2021,
   }
+   {
+    brand: 'Honda',
+    countryoforigin: 'Japan',
+    yearofpurchase: 2020,
+  }
 ]
 
 @Component({
