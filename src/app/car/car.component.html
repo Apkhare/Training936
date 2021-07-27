@@ -1,0 +1,20 @@
+
+<div [ngStyle]= "{'background-color':'#ddd'}">
+    
+<table class = "table table-striped ">
+    <thead>
+        <tr [ngStyle]= "{'color':'red'}">
+            <th>Car Brand</th>
+            <th>Country of Origin</th>
+            <th>Year of Purchase</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let i of containCarArray">
+            <td>{{i.brand}}</td>
+            <td>{{i.countryoforigin}}</td>
+            <td>{{i.yearofpurchase}}</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
