@@ -22,7 +22,7 @@ const CarArray: CarInterface[]=[
     brand: 'Ferrari',
     countryoforigin: 'Italy',
     yearofpurchase: 2021,
-  }
+  },
    {
     brand: 'Honda',
     countryoforigin: 'Japan',
